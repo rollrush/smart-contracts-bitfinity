@@ -8,6 +8,10 @@ const config: HardhatUserConfig = {
       url: `https://rpc.rolxtwo.evm.ra.blumbus.noisnemyd.xyz`,
       accounts: ["private_key"],
     },
+    bitfinity: {
+      url: `https://testnet.bitfinity.network/`,
+      accounts: ["private_key"],
+    },
   },
 };
 
